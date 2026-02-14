@@ -1,0 +1,31 @@
+# Local notes and drafts (do not push to GitHub)
+CanvasQuizAutomate_Notes*
+CanvasQuizAutomate_Notes.txt
+parse_quiz_submissions.py
+
+# Virtual environment
+.venvcanva/
+venv/
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.eggs/
+
+# Gradebook exports and updated CSVs (may contain student data)
+*.csv
+
+# Optional: uncomment to avoid committing course-specific data
+# cse412_quiz_metadata.json
+# quiz_gradebook_columns.json
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,198 @@
+[
+  {
+    "course_id": "249800",
+    "quiz_id": 1938135,
+    "quiz_title": "ER diagram",
+    "due_at": "2026-01-26T17:45:00Z",
+    "unlock_at": "2026-01-26T17:30:00Z",
+    "lock_at": "2026-01-26T17:50:00Z",
+    "published": true,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1938812,
+    "quiz_title": "ER diagram (2) ",
+    "due_at": "2026-01-28T17:45:00Z",
+    "unlock_at": "2026-01-28T17:30:00Z",
+    "lock_at": "2026-01-28T17:45:00Z",
+    "published": true,
+    "points_possible": 6.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1940175,
+    "quiz_title": "ER Translation (Correct Answer Fixed)",
+    "due_at": "2026-02-03T05:45:00Z",
+    "unlock_at": "2026-02-02T17:30:00Z",
+    "lock_at": "2026-02-03T06:45:00Z",
+    "published": true,
+    "points_possible": 5.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1941218,
+    "quiz_title": "ER Translation Review and Relational Operators",
+    "due_at": "2026-02-04T17:45:00Z",
+    "unlock_at": "2026-02-04T17:30:00Z",
+    "lock_at": "2026-02-04T17:45:00Z",
+    "published": true,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1943160,
+    "quiz_title": "Relational Algebra and Quiz",
+    "due_at": "2026-02-09T17:45:00Z",
+    "unlock_at": "2026-02-09T17:30:00Z",
+    "lock_at": "2026-02-09T17:45:00Z",
+    "published": true,
+    "points_possible": 6.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1944830,
+    "quiz_title": "SQL: JOIN, AGGREGATION, HAVING, NESTED QUERIES",
+    "due_at": "2026-02-11T17:45:00Z",
+    "unlock_at": "2026-02-11T17:30:00Z",
+    "lock_at": "2026-02-11T17:45:00Z",
+    "published": true,
+    "points_possible": 5.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915739,
+    "quiz_title": "Concurrency Control Quiz",
+    "due_at": "2026-04-20T20:55:00Z",
+    "unlock_at": "2026-04-20T20:30:00Z",
+    "lock_at": null,
+    "published": false,
+    "points_possible": 15.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915740,
+    "quiz_title": "Crash Recovery Quiz",
+    "due_at": "2026-04-27T20:50:00Z",
+    "unlock_at": "2026-04-27T20:30:00Z",
+    "lock_at": null,
+    "published": false,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1942100,
+    "quiz_title": "ER Translation (Correct Answer Fixed)",
+    "due_at": "2026-02-02T18:30:00Z",
+    "unlock_at": null,
+    "lock_at": null,
+    "published": true,
+    "points_possible": 0.0,
+    "assignment_id": 7187398,
+    "assignment_name": "ER Translation (Correct Answer Fixed)",
+    "gradebook_column": "ER Translation (Correct Answer Fixed) (7187398)"
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1942099,
+    "quiz_title": "ER Translation Review and Relational Operators",
+    "due_at": "2026-02-04T18:30:00Z",
+    "unlock_at": null,
+    "lock_at": null,
+    "published": true,
+    "points_possible": 0.0,
+    "assignment_id": 7187390,
+    "assignment_name": "ER Translation Review and Relational Operators",
+    "gradebook_column": "ER Translation Review and Relational Operators (7187390)"
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915747,
+    "quiz_title": "File Organization and Buffer Pool Management",
+    "due_at": null,
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915741,
+    "quiz_title": "Hash Index and Select/Join Implementation",
+    "due_at": "2026-03-25T20:45:00Z",
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915744,
+    "quiz_title": "Index Quiz",
+    "due_at": null,
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915745,
+    "quiz_title": "Query Optimization",
+    "due_at": "2026-04-01T20:45:00Z",
+    "unlock_at": "2026-04-01T07:00:00Z",
+    "lock_at": null,
+    "published": false,
+    "points_possible": 9.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1936105,
+    "quiz_title": "Relational Data Model",
+    "due_at": "2026-01-21T17:45:00Z",
+    "unlock_at": "2026-01-21T17:30:00Z",
+    "lock_at": null,
+    "published": true,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915746,
+    "quiz_title": "Relational Operator Implementations",
+    "due_at": "2026-03-30T20:45:00Z",
+    "unlock_at": "2026-03-30T20:30:00Z",
+    "lock_at": null,
+    "published": false,
+    "points_possible": 8.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915742,
+    "quiz_title": "Schema Normalization Practice",
+    "due_at": null,
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": 18.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1942469,
+    "quiz_title": "Test Quiz",
+    "due_at": null,
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": null
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1915743,
+    "quiz_title": "Transaction Management Quiz",
+    "due_at": "2026-04-15T20:50:00Z",
+    "unlock_at": "2026-04-15T20:30:00Z",
+    "lock_at": null,
+    "published": false,
+    "points_possible": 10.0
+  }
+]
