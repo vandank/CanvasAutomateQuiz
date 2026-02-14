@@ -14,8 +14,6 @@ This project automates grading for **Canvas practice quizzes**. Instead of manua
 - [All Commands Reference](#all-commands-reference)
 - [Grading Logic](#grading-logic)
 - [Scripts Overview](#scripts-overview)
-- [Excluding Files from GitHub](#excluding-files-from-github)
-
 ---
 
 ## What This Does
