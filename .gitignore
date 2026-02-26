@@ -2,6 +2,9 @@
 CanvasQuizAutomate_Notes*
 CanvasQuizAutomate_Notes.txt
 parse_quiz_submissions.py
+quiz_late.txt
+quiz_on_time.txt
+quiz_not_attempted.txt
 
 # Virtual environment
 .venvcanva/

@@ -14,7 +14,7 @@ import csv
 import json
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
@@ -102,7 +102,7 @@ def build_user_grades(base_url: str, token: str, course_id: str, quiz_id: str) -
             grades[uid] = GRADE_LATE_OR_NOT
             continue
         finished_at = parse_ts(finished_at_raw)
-        grades[uid] = GRADE_ON_TIME if finished_at <= due_dt else GRADE_LATE_OR_NOT
+        grades[uid] = GRADE_ON_TIME if finished_at <= (due_dt + timedelta(minutes=1)) else GRADE_LATE_OR_NOT
     return grades
 
 

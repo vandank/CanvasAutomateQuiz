@@ -1,5 +1,5 @@
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from canvas_paginated_fetch import fetch_all_pages
 from fetch_enrollments import fetch_all_enrollments
 from fetch_quiz_metadata import fetch_quiz_due_at
@@ -59,7 +59,7 @@ for s in students:
         "finished_at": sub.get("finished_at")
     }
 
-    if finished_at > due_dt:
+    if finished_at > (due_dt + timedelta(minutes=1)):
         late.append(record)
     else:
         on_time.append(record)
@@ -67,7 +67,7 @@ for s in students:
 # ---- write reports ----
 with open("quiz_on_time.txt", "w") as f:
     for s in on_time:
-        f.write(f"{s['name']} ({s['login_id']}) | score={s['score']}\n")
+        f.write(f"{s['name']} ({s['login_id']}) | score={s['score']} | finished={s['finished_at']}\n")
 
 with open("quiz_late.txt", "w") as f:
     for s in late:

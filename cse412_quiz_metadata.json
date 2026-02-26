@@ -81,32 +81,6 @@
   },
   {
     "course_id": "249800",
-    "quiz_id": 1942100,
-    "quiz_title": "ER Translation (Correct Answer Fixed)",
-    "due_at": "2026-02-02T18:30:00Z",
-    "unlock_at": null,
-    "lock_at": null,
-    "published": true,
-    "points_possible": 0.0,
-    "assignment_id": 7187398,
-    "assignment_name": "ER Translation (Correct Answer Fixed)",
-    "gradebook_column": "ER Translation (Correct Answer Fixed) (7187398)"
-  },
-  {
-    "course_id": "249800",
-    "quiz_id": 1942099,
-    "quiz_title": "ER Translation Review and Relational Operators",
-    "due_at": "2026-02-04T18:30:00Z",
-    "unlock_at": null,
-    "lock_at": null,
-    "published": true,
-    "points_possible": 0.0,
-    "assignment_id": 7187390,
-    "assignment_name": "ER Translation Review and Relational Operators",
-    "gradebook_column": "ER Translation Review and Relational Operators (7187390)"
-  },
-  {
-    "course_id": "249800",
     "quiz_id": 1915747,
     "quiz_title": "File Organization and Buffer Pool Management",
     "due_at": null,
@@ -124,6 +98,32 @@
     "lock_at": null,
     "published": false,
     "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1942100,
+    "quiz_title": "In-classroom Quiz - ER Translation (Correct Answer Fixed)",
+    "due_at": "2026-02-02T18:30:00Z",
+    "unlock_at": null,
+    "lock_at": null,
+    "published": true,
+    "points_possible": 0.0,
+    "assignment_id": 7187398,
+    "assignment_name": "In-classroom Quiz - ER Translation (Correct Answer Fixed)",
+    "gradebook_column": "In-classroom Quiz - ER Translation (Correct Answer Fixed) (7187398)"
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1942099,
+    "quiz_title": "In-classroom Quiz-ER Translation Review and Relational Operators",
+    "due_at": "2026-02-04T18:30:00Z",
+    "unlock_at": null,
+    "lock_at": null,
+    "published": true,
+    "points_possible": 0.0,
+    "assignment_id": 7187390,
+    "assignment_name": "In-classroom Quiz-ER Translation Review and Relational Operators",
+    "gradebook_column": "In-classroom Quiz-ER Translation Review and Relational Operators (7187390)"
   },
   {
     "course_id": "249800",
@@ -147,6 +147,16 @@
   },
   {
     "course_id": "249800",
+    "quiz_id": 1953582,
+    "quiz_title": "Quiz for reviewing views and data manipulation queries",
+    "due_at": "2026-02-25T19:00:00Z",
+    "unlock_at": "2026-02-25T17:36:00Z",
+    "lock_at": null,
+    "published": true,
+    "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
     "quiz_id": 1936105,
     "quiz_title": "Relational Data Model",
     "due_at": "2026-01-21T17:45:00Z",
@@ -163,6 +173,16 @@
     "unlock_at": "2026-03-30T20:30:00Z",
     "lock_at": null,
     "published": false,
+    "points_possible": 8.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1952407,
+    "quiz_title": "SQL Review ",
+    "due_at": "2026-02-23T17:45:00Z",
+    "unlock_at": "2026-02-23T17:30:00Z",
+    "lock_at": null,
+    "published": true,
     "points_possible": 8.0
   },
   {
@@ -194,5 +214,15 @@
     "lock_at": null,
     "published": false,
     "points_possible": 10.0
+  },
+  {
+    "course_id": "249800",
+    "quiz_id": 1954118,
+    "quiz_title": "Unnamed Quiz",
+    "due_at": null,
+    "unlock_at": null,
+    "lock_at": null,
+    "published": false,
+    "points_possible": 0.0
   }
 ]
