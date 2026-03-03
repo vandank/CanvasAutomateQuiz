@@ -52,24 +52,28 @@ def suggest_mapping(
     assignment_headers: list[tuple[int, str]],
     quizzes: list[dict],
 ) -> dict[str, str]:
-    """Suggest quiz_id -> column name by matching quiz_title to header (fuzzy)."""
+    """Suggest quiz_id -> column name by matching quiz_title to header (fuzzy).
+    When multiple headers match (e.g. 'SQL Review' vs 'Advanced SQL Review'), prefer
+    the most specific match: the header with the shortest normalized form so that
+    'SQL Review' maps to 'In-Classroom Quiz SQL Review' not 'In-Classroom Quiz Advanced SQL Review'.
+    """
     suggestions = {}
     for q in quizzes:
         qid = str(q["quiz_id"])
         title = (q.get("quiz_title") or "").strip()
         norm_title = normalize(title)
         best = None
-        best_len = 0
+        best_norm_len = float("inf")  # prefer shortest (most specific) match
         for _, header in assignment_headers:
             norm_header = normalize(header)
             if norm_title in norm_header or norm_header in norm_title:
-                if len(header) > best_len:
+                if len(norm_header) < best_norm_len:
                     best = header
-                    best_len = len(header)
+                    best_norm_len = len(norm_header)
             elif norm_title and norm_header and (norm_title[:10] in norm_header or norm_header[:10] in norm_title):
-                if len(header) > best_len:
+                if len(norm_header) < best_norm_len:
                     best = header
-                    best_len = len(header)
+                    best_norm_len = len(norm_header)
         if best:
             suggestions[qid] = best
     return suggestions
